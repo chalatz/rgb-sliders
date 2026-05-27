@@ -1,4 +1,15 @@
+.index {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid #000;
+    color: #000;
+    font-size: 1.5rem;
+    padding: 10px 0 7px;
+}
+
 .result {
+    height: 6rem;
     background-color: rgb(var(--red), var(--green), var(--blue));
 
     &--red {
@@ -12,6 +23,13 @@
     }
 }
 
+.rgb-result-wrapper {
+    padding: 0.5rem;
+    border: 3px solid #000;
+    display: flex;
+}
+
 .rgb-result {
+    flex: 1;
     background-color: rgb(var(--red), var(--green), var(--blue));
 }
