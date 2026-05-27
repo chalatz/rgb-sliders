@@ -48,6 +48,10 @@ main {
   grid-row-start: 1;
 }
 
+.slider {
+  cursor: pointer;
+}
+
 .result {
   background-color: rgb(var(--red), var(--green), var(--blue));
 }
