@@ -1,3 +1,6 @@
+// npx @11ty/eleventy --serve
+// npm run sass:watch
+
 // The export statement makes these settings available to other files in 11ty
 module.exports = function(eleventyConfig) {
   // Watch SCSS for changes
