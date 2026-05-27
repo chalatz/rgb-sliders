@@ -1,0 +1,18 @@
+.result {
+  background-color: rgb(var(--red), var(--green), var(--blue));
+}
+.result--red {
+  background-color: rgb(var(--red), 0, 0);
+}
+.result--green {
+  background-color: rgb(0, var(--green), 0);
+}
+.result--blue {
+  background-color: rgb(0, 0, var(--blue));
+}
+
+.rgb-result {
+  background-color: rgb(var(--red), var(--green), var(--blue));
+}
+
+/*# sourceMappingURL=results.css.map */
